@@ -1,0 +1,113 @@
+*{
+    font-family: 'Barlow Medium', sans-serif;
+    color: hsl(0, 0%, 100%);
+    font-size: 13px;
+}
+body{
+    padding: 150px;
+    background-color: hsl(210, 46%, 95%) ;
+    max-width: 1440px;
+}
+.contenedor{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+}
+.caja1{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+section{
+    display: flex;
+    flex-direction: row;
+}
+aside{
+    display: flex;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 10px;
+    margin: 10px;
+    margin-bottom: 0;
+    width: 250px;
+    height: 97%;
+    padding-bottom: -30px;
+    
+}
+aside h2{
+    color: black;
+}
+aside p{
+color: black;  
+opacity: 60%; 
+}
+aside li{
+    color: black;
+}
+h2{
+    font-family: 'Barlow Semibold', sans-serif ;
+    font-size: 20px;
+}
+.identificador{
+    display: flex;
+    flex-direction: row;  
+}
+ul{
+    list-style: none;
+    margin-left: -30px;
+}
+img{
+    border: solid VIOLET;
+    border-radius: 50px;
+}
+.foto{
+    width: 25px;
+    height: 25px;
+    margin-top: 10px;
+}
+.verified{
+    opacity: 50%;
+}
+p{
+    opacity: 70%;
+    line-height: 20px;
+}
+article{
+    padding: 20px;
+    box-shadow: 10px 10px 40px hsl(0, 0%, 81%) ;
+}
+
+.Clifford{
+background-color: hsl(263, 55%, 52%);
+background-image: url(/imágenes/bg-pattern-quotation.svg);
+background-repeat: no-repeat;
+background-position: 80% 0;
+border-radius: 10px;
+margin: 10px;
+}
+.Walters{
+    background-color:hsl(217, 19%, 35%);
+    border-radius: 10px;
+    margin: 10px;
+}
+.Janette{
+    background-color:hsl(0, 0%, 100%);
+    border-radius: 10px;
+    margin: 10px;
+}
+.Janette p{
+    color: black;
+}
+.Janette h2{
+    color: black;
+}
+.Janette li{
+    color: black;
+}
+.Abrams{
+    background-color:hsl(219, 29%, 14%);
+    border-radius: 10px;
+    margin: 10px;
+    margin-bottom: 0;
+    height: 100%;
+}
+
